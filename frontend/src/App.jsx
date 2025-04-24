@@ -5,7 +5,7 @@ import JoinRoom from "./components/JoinRoom";
 import Sidebar from "./components/Sidebar";
 import EditorWindow from "./components/EditorWindow";
 
-const socket = io("https://realtime-code-editor-final.onrender.com");
+const socket = io("https://code-editor-gff6.onrender.com");
 
 const App = () => {
   const [joined, setJoined] = useState(false);
